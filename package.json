@@ -1,7 +1,7 @@
 {
   "name": "trial",
   "version": "1.0.0",
-  "description": "",
+  "description": "Added server folder\r * contains the database and the backend server index.mjs\r * this should be run first with \"npm start\"\r Minor updates to several files\r * most changes in Login.jsx and App.jsx\r * should be run second in separate terminal with \"npm run dev\"",
   "main": "index.js",
   "scripts": {
     "start": "node ./server/index.mjs"
@@ -12,6 +12,10 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
-    "jsonfile": "^6.1.0"
-  }
+    "json": "^11.0.0",
+    "json-server": "^0.17.4",
+    "jsonfile": "^6.1.0",
+    "server": "^1.0.38"
+  },
+  "devDependencies": {}
 }
